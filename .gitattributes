@@ -1,0 +1,4 @@
+*.meta linguist-generated=true
+*.csproj linguist-generated=true
+*.shader linguist-generated=false
+UserSettings/ linguist-vendored
