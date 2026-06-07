@@ -1,4 +1,12 @@
-*.meta linguist-generated=true
-*.csproj linguist-generated=true
+# Mark Unity meta files as generated so GitHub ignores them
+*.meta linguist-generated=true linguist-vendored
+
+# Visual Studio files
+*.csproj linguist-generated=true linguist-vendored
+*.sln linguist-generated=true linguist-vendored
+
+# Shaders confuse Linguist
 *.shader linguist-generated=false
-UserSettings/ linguist-vendored
+
+# Asset folders with lots of binaries
+TutorialsEU_Assets/ linguist-vendored
